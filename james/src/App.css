@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.App {
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  flex: 1;
+}
+
+.Main-Container {
+  flex: 0;
+  background-color: aquamarine;
+}
+
+.James {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+}
